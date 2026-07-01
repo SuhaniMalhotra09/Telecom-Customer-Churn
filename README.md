@@ -8,7 +8,7 @@ This project analyzes customer churn in a telecom company using **Exploratory Da
 
 ## Dataset
 
-- **Source:** IBM Telecom Customer Churn Dataset
+- **Source:**  Telecom Customer Churn Dataset
 - **Records:** 7,043 customers
 - **Features:** 21 customer attributes
 - **Target Variable:** Churn (Yes / No)
