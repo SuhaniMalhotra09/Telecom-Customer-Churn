@@ -1,33 +1,106 @@
-# Telecom Customer Churn Analysis
+# Telecom Customer Churn Prediction
 
 ## Project Overview
-This project performs Exploratory Data Analysis (EDA) on the Telecom Customer Churn dataset to identify factors influencing customer attrition.
+
+This project analyzes customer churn in a telecom company using **Exploratory Data Analysis (EDA)** and **Machine Learning**. The objective is to identify the key factors influencing customer churn and build a predictive model that helps businesses proactively retain customers.
+
+---
 
 ## Dataset
-- 7043 customer records
-- 21 features
-- Target Variable: Churn
 
-## Tools Used
+- **Source:** IBM Telecom Customer Churn Dataset
+- **Records:** 7,043 customers
+- **Features:** 21 customer attributes
+- **Target Variable:** Churn (Yes / No)
+
+---
+
+## Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Scikit-learn
 - Jupyter Notebook
 
-## Key Findings
-- Overall churn rate: 26.5%
-- Month-to-Month contracts show highest churn.
-- Fiber Optic customers have higher churn rates.
-- Customers without Online Security and Tech Support are more likely to churn.
-- Senior Citizens show higher churn percentages.
+---
+
+## Project Workflow
+
+- Data Cleaning and Preprocessing
+- Missing Value Handling
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- One-Hot Encoding
+- Train-Test Split
+- Feature Scaling using StandardScaler
+- Logistic Regression Model
+- Model Evaluation
+- Business Insights and Recommendations
+
+---
+
+## Key Insights from EDA
+
+- Overall customer churn rate is approximately **26.5%**.
+- Customers with **Month-to-Month contracts** exhibit the highest churn.
+- **Fiber Optic** internet users are more likely to churn.
+- Customers without **Online Security** and **Tech Support** have significantly higher churn rates.
+- **Senior Citizens** demonstrate a higher churn percentage.
+- Longer customer tenure is associated with lower churn.
+
+---
+
+## Machine Learning Model
+
+A **Logistic Regression** classifier was developed to predict customer churn.
+
+### Preprocessing
+
+- Converted categorical variables using One-Hot Encoding.
+- Scaled numerical features using StandardScaler.
+- Split the dataset into training and testing sets.
+
+### Model Evaluation
+
+The model was evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- Confusion Matrix
+- Classification Report
+
+Feature coefficients were analyzed to identify the strongest drivers of customer churn.
+
+---
 
 ## Business Recommendations
-- Promote long-term contracts.
-- Improve retention strategies for new customers.
-- Bundle security and support services.
-- Investigate Fiber Optic customer dissatisfaction.
+
+- Encourage customers to switch to long-term contracts.
+- Improve onboarding and retention strategies for new customers.
+- Bundle Online Security and Tech Support services.
+- Investigate service quality for Fiber Optic customers.
+- Focus retention campaigns on high-risk customer segments identified by the model.
+
+---
+
+## Future Improvements
+
+- Random Forest Classifier
+- XGBoost
+- Hyperparameter Tuning
+- Cross Validation
+- Streamlit Deployment
+- Interactive Dashboard
+
+---
 
 ## Author
-Suhani Malhotra
+
+**Suhani Malhotra**
+
+GitHub: https://github.com/SuhaniMalhotra09
+
