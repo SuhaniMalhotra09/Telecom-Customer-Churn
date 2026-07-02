@@ -93,4 +93,4 @@ This project currently establishes a baseline comparison across five models. The
 
 ## Author
 
-Suhani | [LinkedIn] | [GitHub]
+Suhani 
