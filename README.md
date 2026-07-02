@@ -56,8 +56,20 @@ Gradient Boosting and Logistic Regression are effectively tied on ROC-AUC, with 
 ```
 ├── TCA.ipynb              # Full notebook: EDA, preprocessing, modeling, evaluation (runs top-to-bottom cleanly)
 ├── customer_churn.csv     # Dataset
+├── requirements.txt        # Python dependencies
 ├── README.md               # Project overview (this file)
-└── EXECUTIVE_SUMMARY.md    # Business-facing summary of findings and recommendations
+└── Executive_Summary.pdf   # Business-facing summary of findings and recommendations
+```
+
+> **Note:** rename `TCA (2).ipynb` → `TCA.ipynb` and `Executive Summary_ Telecom Customer Churn Prediction.pdf` → `Executive_Summary.pdf` in the repo so the file names match what's referenced here (spaces and parentheses in filenames are best avoided in a GitHub repo).
+
+## Setup
+
+```bash
+git clone https://github.com/SuhaniMalhotra09/Telecom-Customer-Churn.git
+cd Telecom-Customer-Churn
+pip install -r requirements.txt
+jupyter notebook TCA.ipynb
 ```
 
 ## Business Recommendations
@@ -81,5 +93,4 @@ This project currently establishes a baseline comparison across five models. The
 
 ## Author
 
-Suhani 
-
+Suhani | [LinkedIn] | [GitHub]
